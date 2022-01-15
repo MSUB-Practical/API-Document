@@ -18,7 +18,7 @@
 
 ```jsx
 {
-	"code": (int) *ResultCode,*
+	"code": (int) ResultCode,
 	"message": "some message",
 	"result": array|object|null // 이 밑에서 설명하는 Response랑 같음
 }
@@ -130,10 +130,10 @@
     Content-Type: application/json
     
     {
-    	"to": string,   // 받는 사람의 메일
-    	"text": string, // 보낼 메시지의 내용, html 태그 사용 가능
-    	"title": title, // 보낼 메일의 제목
-    	"token": string // 사용자 토큰
+    	"to": string,    // 받는 사람의 메일
+    	"text": string,  // 보낼 메시지의 내용, html 태그 사용 가능
+    	"title": string, // 보낼 메일의 제목
+    	"token": string  // 사용자 토큰
     }
     ```
     
