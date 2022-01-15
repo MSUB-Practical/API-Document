@@ -22,7 +22,7 @@
 }
 ```
 
-서버 주소 - http://msub.kr:30012
+서버 주소 - http://mist.pw:30012
 
 ### POST /signup
 
